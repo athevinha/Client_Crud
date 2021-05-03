@@ -92,7 +92,7 @@ export default class ListTutorials extends Component {
         </div>
         <table className="table">
           <tr>
-            <th>ID</th>
+            <th className="idTulMe">ID</th>
             <th>TITLE</th>
             <th>DESCRIPTION</th>
             <th></th>
@@ -100,7 +100,7 @@ export default class ListTutorials extends Component {
           {this.state.Tutorials.map((Tutorial, id) => {
             return (
               <tr key={id}>
-                <td>{Tutorial._id}</td>
+                <td className="idTulCon">{Tutorial._id}</td>
                 <td>{Tutorial.title}</td>
                 <td>{Tutorial.description}</td>
                 <td className="settingTutorials">

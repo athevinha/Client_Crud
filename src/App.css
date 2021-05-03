@@ -1,0 +1,7 @@
+@media only screen and (max-width: 600px) {
+  .idTulMe,
+  .idTulCon {
+    display: none;
+    visibility: hidden;
+  }
+}
