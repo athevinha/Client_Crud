@@ -1,0 +1,42 @@
+.btnSubmitUpdate {
+  position: absolute;
+  left: 50%;
+}
+.form-control {
+  font-size: 150%;
+}
+.blackBackground {
+  background-color: black;
+  opacity: 0.9;
+  z-index: 2 !important;
+}
+.updateForm {
+  z-index: 3 !important;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  width: 50%;
+}
+.closeUpdateTutorial {
+  position: absolute;
+  z-index: 3 !important;
+  border-radius: 50%;
+  left: 80%;
+  top: 25%;
+}
+.updateTutorial,
+.blackBackground {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.updateTutorial {
+  display: none;
+  visibility: hidden;
+}
+.updateTutorialShow {
+  display: inherit;
+  visibility: visible;
+}
