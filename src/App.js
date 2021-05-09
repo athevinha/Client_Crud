@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import Iframe from "react-iframe";
 import { Link, Route, Switch } from "react-router-dom";
 import AddTutorial from "./components/add-tutorial.component";
 import Tutorial from "./components/tutorial.component";
@@ -40,6 +41,15 @@ class App extends Component {
             <Route path="/tutorials/:id" render={(props) => <Tutorial />} />
           </Switch>
         </div>
+        {/* <Iframe
+          url="https://surviv.io/"
+          width="1000px"
+          height="1000px"
+          id="myId"
+          className="myClassname"
+          display="initial"
+          position="relative"
+        /> */}
       </div>
     );
   }
