@@ -5,3 +5,8 @@
     visibility: hidden;
   }
 }
+.nav-link {
+  display: inline;
+  position: relative;
+  top: 1vh;
+}

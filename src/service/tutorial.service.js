@@ -1,5 +1,4 @@
 import http from "../http-common";
-import React, { Component, useEffect } from "react";
 class TutorialDataService {
   getAll() {
     return http.get("/tutorials/read");
